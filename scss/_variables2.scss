@@ -1,0 +1,46 @@
+$headerIMG2: url(../img/m-h-night.jpg);
+$BGbody: #121318;
+$colorWhite: white;
+$BGCbutton: rgb(255, 196, 0);
+$BGCbefor: #fa1515;
+$gradient2: linear-gradient(90deg, rgb(255, 187, 0), rgb(253, 2, 107));
+header {
+  background-image: $headerIMG2;
+}
+.section_banner {
+  background: $gradient2;
+}
+.section_text::before {
+  background-color: $BGCbefor;
+}
+.section_banner_heading::before {
+  background-color: $BGCbefor;
+}
+.header_heading::before {
+  background-color: $BGCbefor;
+}
+.header_button {
+  background-color: $BGCbutton;
+}
+.section_banner_button {
+  background-color: $BGCbutton;
+}
+.section_banner_heading {
+  color: $colorWhite;
+}
+.section_text {
+  color: $colorWhite;
+}
+.header_text {
+  color: $colorWhite;
+}
+.header_heading {
+  color: $colorWhite;
+}
+.landing-logo p,
+span {
+  color: $colorWhite;
+}
+body {
+  background-color: $BGbody;
+}

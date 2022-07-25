@@ -1,0 +1,33 @@
+$headerIMG1: url(../img/m-h-day.jpg);
+$BGbody: white;
+$colorGray: #2c2f3c;
+$BGCbutton: rgba(142, 214, 26, 0.767);
+$BGCbefor: #14a0c7;
+$gradient1: linear-gradient(90deg, rgb(115, 157, 7), rgb(50, 97, 203));
+header {
+  background-image: $headerIMG1;
+}
+.section_banner {
+  background: $gradient1;
+}
+.section_text::before {
+  background-color: $BGCbefor;
+}
+.section_banner_heading::before {
+  background-color: $BGCbefor;
+}
+.header_heading::before {
+  background-color: $BGCbefor;
+}
+.header_button {
+  background-color: $BGCbutton;
+}
+.section_banner_button {
+  background-color: $BGCbutton;
+}
+.section_text {
+  color: $colorGray;
+}
+.header_heading {
+  color: $colorGray;
+}
